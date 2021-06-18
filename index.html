@@ -5,21 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="Danilo Menezes Portifólio" content="width=device-width, initial-scale=1.0">
     <title>Danilo Menezes | Portifólio</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+
     <style>
-      
-      body {
-        background-image: url(.gitignore/original.jpg);
-      }
-      <link rel="preconnect" href="https://fonts.gstatic.com">
-      <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    a{
+      color: #D3D3D3;
+      text-decoration: none
+    }
 
-      .text-formatation {
-      font-family: 'Kalam', cursive; 
+    body {
+      background-image: url(.gitignore/original.jpg);
+      font-family: 'kalam', cursive;
       font-size: 18px;
-      color: #D3D3D3 }
-
-      .Font-color-grey {color: #D3D3D3	;}
+      color: #D3D3D3;
+    }
       
+    .text-formatation {
+      font-family: 'Kalam', cursive; 
+      font-size: 2em;
+      color: #D3D3D3;
+      text-shadow: 2px 2px 6px #808080;
+    }
+    .button{
+      background-color: #363636; 
+      border: none;
+      border-radius : 10px 10px;
+      color: #B0C4DE;
+      padding: 0.75px 4px;
+      text-align: center;
+      text-transform: capitalize;
+      display: inline-block;
+      font-size: 1.4rem;
+      font-weight: unset;
+      float: left;
+
+    }
+
+    .lower-button{
+      background-color: transparent;
+      border-radius: 6px 6px;
+      color: #D3D3D3;
+      text-decoration: none;
+      text-transform: capitalize;
+      
+
+    }
+
+    #border-radius{
+      border-radius: 50%;
+    }
 
     </style>      
 
@@ -28,21 +65,21 @@
   <h1 class="text-formatation" >Danilo S. Menezes</h1>
 
   <ul>
-    <li><a href="#Sobre mim">Sobre mim</a></li>
-    <li><a href="#hobbies">Meus hobbies</a></li>
-    <li><a href="#soft">Soft Skills</a></li>
-    <li><a href="#hard">Hard Skills</a></li>
-    <li><a href="#sites">Sites e Blogs</a></li>
-    <li><a href="#contato">Contato</a></li>
-  </ul>
+    <li class="button"><a href="#Sobre mim">Sobre mim</a></li>
+    <li class="button"><a href="#hobbies">Meus hobbies</a></li>
+    <li class="button"><a href="#soft">Soft Skills</a></li>
+    <li class="button"><a href="#hard">Hard Skills</a></li>
+    <li class="button"><a href="#sites">Sites e Blogs</a></li>
+    <li class="button"><a href="#contato">Contato</a></li>
+  </ul><br><br><br>
 
-  <a href="http://127.0.0.1:5500/Danilo%20M.jpeg" target="_blank">
-  <img src="Danilo M.jpeg" alt="Danilo Menezes" width="350px"></a><br>
+<a href="http://127.0.0.1:5500/Danilo%20M.jpeg" target="_blank">
+  <img id="border-radius" src="Danilo M.jpeg" alt="Danilo Menezes" width="250px"></a><br><br>
 
 
   <p>Ninguem é tão grande que não possa aprender, <br>nem tão pequeno que não possa ensinar.<br><em>-Esopo</em> </p>
 
-  <h3 id="Sobre mim" class="Font-color-grey"> Sou Danilo Menezes, Nasci em Ipatinga - MG no interior de minas e atualmente resido em Belo Horizonte.<br> Sou estudante de Desenvolvimento Web Full Stack na Trybe e estou bastante empolgado para aprender e aplicar <br>os conhecimentos adquiridos.</h3>
+  <h3 id="Sobre mim"> Sou Danilo Menezes, Nasci em Ipatinga - MG no interior de minas e atualmente resido em Belo Horizonte.<br> Sou estudante de Desenvolvimento Web Full Stack na Trybe e estou bastante empolgado para aprender e aplicar <br>os conhecimentos adquiridos.</h3>
 
   <H3 id="hobbies">Meus hobbies: </H3>
   <p>No meu tempo livre gosto de jogar, assistir séries/animes, tomar uma cervejinha com amigos e assistir futebol.</p>
@@ -62,8 +99,8 @@
 
   <h3 id="sites">Sites/blogs favoritos: </h3>
   <ul>
-    <li><a href="https://olhardigital.com.br/en/" target="_blank">Olhar Digital</a></li>
-    <li><a href="https://www.techtudo.com.br/" target="_blank">Techtudo</a></li>
+    <li class="lower-button"><a href="https://olhardigital.com.br/en/" target="_blank">Olhar Digital</a></li>
+    <li class="lower-button"><a href="https://www.techtudo.com.br/" target="_blank">Techtudo</a></li>
   </ul>
 
   <h3 id="contato">Contato:</h3>
@@ -71,7 +108,7 @@
   <a href="hhttps://www.linkedin.com/in/danilosmenezes/" target="_blank">
     <img src="Linkedin Icon.png" alt="Meu Linkedin" width="35px"></a>
   <a href="https://github.com/DM-7" target="_blank">
-  <img src="Github Icon.png" alt="Meu Github" width="35px"></a><br>
+  <img src="Github Icon.png" alt="Meu Github" width="37px"></a><br>
 
 </body>
 </html>
