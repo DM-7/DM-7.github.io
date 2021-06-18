@@ -1,5 +1,4 @@
-<style>
-    
+   
 a{
   color: #D3D3D3;
   text-decoration: none
@@ -29,9 +28,7 @@ body {
   display: inline-block;
   font-size: 1.4rem;
   font-weight: unset;
-  float: left;
-
-}
+  }
 
 .lower-button{
   background-color: transparent;
@@ -46,5 +43,3 @@ body {
 #border-radius{
   border-radius: 50%;
 }
-
-</style> 
